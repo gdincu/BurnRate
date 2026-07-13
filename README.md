@@ -2,6 +2,9 @@
 
 **BurnRate** is a lightweight, aviation-inspired fuel management tool designed to help drivers determine the required fuel consumption needed to reach their destination. By comparing your current fuel state against your total trip requirements, **BurnRate** provides the real-time feedback necessary to ensure you reach your destination without running dry
 
+<img width="567" height="721" alt="image" src="https://github.com/user-attachments/assets/12b4c2c8-7244-4494-b5ce-d60c2fc8055d" />
+
+
 ## Features
 
 * **Fuel State Calculation:** Quickly determine the maximum average fuel consumption ($L/100km$) you can afford for the remainder of your trip
