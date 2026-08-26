@@ -1,6 +1,5 @@
 const CACHE_NAME = 'burnrate-cache-v1';
-const urlsToCache = [
-  './',
+const ASSETS_TO_CACHE = [
   './index.html',
   './css/styles.css',
   './js/script.js',
@@ -12,7 +11,7 @@ const urlsToCache = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
+      return cache.addAll(ASSETS_TO_CACHE);
     })
   );
 });
