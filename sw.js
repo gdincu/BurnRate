@@ -1,11 +1,11 @@
 const CACHE_NAME = 'burnrate-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/css/styles.css',
-  '/js/script.js',
-  '/icons/icon.png',
-  '/manifest.json'
+  './',
+  './index.html',
+  './css/styles.css',
+  './js/script.js',
+  './icons/icon.png',
+  './manifest.json'
 ];
 
 // Install event - cache core assets
