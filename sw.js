@@ -1,7 +1,7 @@
 const CACHE_NAME = 'burnrate-cache-v1';
 const ASSETS_TO_CACHE = [
   './index.html',
-  './css/styles.css',
+  './css/style.css',
   './js/script.js',
   './icon.png',
   './manifest.json'
