@@ -24,4 +24,4 @@
 
 1.  Clone this repository or download the three files (`index.html`, `style.css`, and `script.js`).
 2.  Open `index.html` in your favorite web browser.
-3.  Input your trip details and click **Calculate** to check your status.
+3.  Input your trip details and click **Calculate** to check your status. 
