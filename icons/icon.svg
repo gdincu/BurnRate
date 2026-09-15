@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="115" fill="#0d6efd"/>
+  <!-- gauge arc -->
+  <path d="M 103 307 A 153 153 0 0 1 409 307" fill="none" stroke="#ffffff" stroke-width="32"/>
+  <!-- red zone -->
+  <path d="M 103 307 A 153 153 0 0 1 114 250" fill="none" stroke="#ff3b30" stroke-width="32"/>
+  <!-- ticks -->
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round">
+    <line x1="103" y1="307" x2="71" y2="307"/>
+    <line x1="114" y1="250" x2="86" y2="243"/>
+    <line x1="148" y1="199" x2="125" y2="184"/>
+    <line x1="199" y1="164" x2="184" y2="141"/>
+    <line x1="256" y1="154" x2="256" y2="126"/>
+    <line x1="313" y1="164" x2="328" y2="141"/>
+    <line x1="364" y1="199" x2="387" y2="184"/>
+    <line x1="398" y1="250" x2="426" y2="243"/>
+    <line x1="409" y1="307" x2="441" y2="307"/>
+  </g>
+  <!-- needle casing + core -->
+  <line x1="256" y1="307" x2="348" y2="195" stroke="#ffffff" stroke-width="23" stroke-linecap="round"/>
+  <line x1="256" y1="307" x2="348" y2="195" stroke="#ff2d55" stroke-width="12" stroke-linecap="round"/>
+  <!-- hub -->
+  <circle cx="256" cy="307" r="40" fill="#ffffff"/>
+  <circle cx="256" cy="307" r="34" fill="#0a1b33"/>
+  <!-- flame -->
+  <path d="M 256 275 L 277 297 L 274 318 L 263 329 L 249 329 L 238 318 L 235 297 Z" fill="#ff6a00"/>
+  <path d="M 256 291 L 266 305 L 263 317 L 256 321 L 249 317 L 246 305 Z" fill="#ffc107"/>
+  <!-- E / F -->
+  <text x="22" y="325" font-family="Arial, sans-serif" font-weight="bold" font-size="44" fill="#ffffff">E</text>
+  <text x="468" y="325" font-family="Arial, sans-serif" font-weight="bold" font-size="44" fill="#ffffff">F</text>
+</svg>
